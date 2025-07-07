@@ -4,7 +4,6 @@ import GameCardContainer from "./GameCardContainer";
 const GameCardSkeleton = () => {
   return (
     <GameCardContainer>
-      {" "}
       <Card>
         <Skeleton height="200px"></Skeleton>
         <CardBody>
