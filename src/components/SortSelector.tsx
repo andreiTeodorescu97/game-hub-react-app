@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 interface Props {
   onSelectSortOrder: (order: string) => void;
-  sortOrder: string;
+  sortOrder: string | null;
 }
 const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
   const sortOrders = [
