@@ -7,7 +7,7 @@ const GameGrid = () => {
 
   return (
     <>
-      {isLoading && <p>nothing found</p>}
+      {isLoading && <p>loading...</p>}
       {error && <Text>{error}</Text>}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
