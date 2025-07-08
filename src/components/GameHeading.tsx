@@ -7,7 +7,7 @@ interface Props {
 const GameHeading = ({ gameQuery }: Props) => {
   const heading = `${gameQuery.platform?.name || ""} ${
     gameQuery.genre?.name || ""
-  } Games Test Vercel`;
+  } Games Test Vercel2`;
   return (
     <Heading marginY={5} fontSize="5xl" as="h1">
       {heading}
