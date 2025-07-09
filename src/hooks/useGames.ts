@@ -33,7 +33,6 @@ const useGames = (query: GameQuery) => {
         return undefined;
       }
     },
-    cacheTime: 300_000,
     staleTime: 24 * 60 * 60 * 1000, //24h
   });
 };
